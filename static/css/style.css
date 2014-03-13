@@ -1,1 +1,24 @@
+/* Compensate for the fixed nav bar at the top */
+body { padding-top: 50px; }
+
 section {margin: 10px 0 15px;}
+section#about, section#contact{margin-top:3em;}
+section h1{font-size: 42pt; margin-bottom:25px;}
+
+footer {
+    margin-top:2em;
+    background:url("../images/bubblestop.png") repeat-x;
+    padding-top:2em;
+}
+
+footer section {
+    padding:3em 0 3em 3em;
+    background-color: rgb(255, 212, 77);
+}
+
+.divide {
+    background: url("../images/triangle-line-shadow.png") repeat-x;
+    width:100%;
+    padding:2em;
+    margin-top:2em;
+}
