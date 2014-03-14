@@ -18,6 +18,10 @@ section h1.general_section{
     color:white;
 }
 
+.panel{
+margin-top:12px;
+}
+
 footer {
     margin-top:2em;
     background:url("../images/bubblestop.png") repeat-x;
