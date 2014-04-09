@@ -28,10 +28,24 @@
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
                         <li ><a href="/">Home</a></li>
-                        <li><a href="http://blog.codinggrace.com">Blog</a></li>
+                        <li  class=" dropdown">
+                            <a href="#" class="dropdown-toggle"  data-toggle="dropdown">News  <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/articles/">Articles</a></li>
+                                <li><a href="/archives/">Archives</a></li>
+                            </ul>
+
+                        </li>
                         <!--<li ><a href="about.html">About</a></li>-->
-                        <li ><a href="/#about">About</a></li>
+                        <li class=" dropdown">
+                            <a href="#" class="dropdown-toggle"  data-toggle="dropdown">About <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/#about">About us</a></li>
+                                <li><a href="/chapters">Chapters</a></li>                                
+                            </ul>
+                        </li>
                         <li ><a href="/#conduct">Code of Conduct</a></li>
+                        <li class="active"><a href="/resources">Resources</a></li>
                     </ul>
 			     </div>
             </div> <!-- container-fluid -->
@@ -46,7 +60,7 @@
             <img src="/static/images/codinggrace-logo.png" alt="Coding Grace Logo">
         </div>
         <div class="col-md-6">
-            <h1></h1>
+            <h1>RESOURCES</h1>
         </div>
         <div class="col-md-3">
             <div class="well">
@@ -55,35 +69,39 @@
         </div>
     </div>
 </div>
-<div class="container-fluid">
-    <ul>
-    
-        <li><a href="#general">General</a></li>
-    
-        <li><a href="#html5andcss3">HTML5 and CSS3</a></li>
-    
-        <li><a href="#python">Python</a></li>
-    
-        <li><a href="#sourcecontrol">Source Control</a></li>
-    
-    </ul>
+<div class="container-fluid resources">
+    <div class="row">
+        <div class="col-md-4">
+            <ul class="list-group">
+            
+                <li class="list-group-item"><a href="#general">General</a></li>
+            
+                <li class="list-group-item"><a href="#html5andcss3">HTML5 and CSS3</a></li>
+            
+                <li class="list-group-item"><a href="#python">Python</a></li>
+            
+                <li class="list-group-item"><a href="#sourcecontrol">Source Control</a></li>
+            
+            </ul>
+        </div>
+    </div>
 
     
     <section id="general">
         <div class="row">
             <h1 class="general_section">GENERAL</h1>
-            <h3 id="commandline">Command Line</h3>
+            <div class="resource"><h2 id="commandline">Command Line</h2>
 
-<h4>Windows</h4>
+<h3>Windows</h3>
 <p>If you have Windows 7 onwards, fire <a href="http://technet.microsoft.com/en-us/library/dd315244.aspx">Powershell</a> up.</p>
 <p>If you have an older Windows OS, get <a href="http://www.cygwin.com/">Cygwin</a></p>
-<h4>Linux / MacOSX</h4>
+<h3>Linux / MacOSX</h3>
 <p>You are all set, just open Terminal.</p>
 <h3>Tutorials</h3>
 <ul>
 <li><a href="http://cli.learncodethehardway.org/book/">http://cli.learncodethehardway.org/book/</a></li>
 </ul>
-<h3 id="ide">IDEs and Text Editors</h3>
+<h2 id="ide">IDEs and Text Editors</h2>
 
 <p>IDE stands for "Integrated development environment". It includes an environment that included an editor,
 build tools, debugging. Some IDEs also come with code completion (type a built-in function and hit tab to complete
@@ -99,28 +117,42 @@ make like easier like source control integration, additional syntax highlighting
 <li><a href="http://www.sublimetext.com/">Sublime Text</a> (All Platforms)</li>
 <li><a href="http://macromates.com/">TextMate</a> (Mac only)</li>
 <li>More to come</li>
-</ul>
-<div class="panel panel-info">
-    <div class="panel-heading"></div>
-    <div class="panel-body">
-        <span class="glyphicon glyphicon-forward"></span>More coming soon<span class="glyphicon glyphicon-backward"></span>
-    </div>
-</div>
+</ul></div>
         </div>
     </section>
     
     <section id="html5andcss3">
         <div class="row">
             <h1 class="general_section">HTML5 AND CSS3</h1>
-            <h1>Where to begin...?</h1>
-<p>HTML HTML HTML</p>
+            <div class="resource"><h2>Where to begin...?</h2>
+<p>Check out material from previous Coding Grace Beginners and Intermedate HTML5/CSS3 workshops:- </p>
+<ul>
+<li><a href="https://bitbucket.org/codinggrace/html5-css3-workshop/wiki/Home">Coding Grace workshop content</a></li>
+</ul>
+<h2>References</h2>
+<h3>HTML5</h3>
+<ul>
+<li><a href="http://html5doctor.com/">http://html5doctor.com/</a></li>
+<li><a href="http://diveintohtml5.info/">http://diveintohtml5.info/</a></li>
+<li><a href="http://html5demos.com/">http://html5demos.com/</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5">https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5</a></li>
+</ul>
+<h3>CSS3</h3>
+<ul>
+<li><a href="http://learnlayout.com/">http://learnlayout.com/</a></li>
+<li><a href="http://css-tricks.com/box-sizing/">http://css-tricks.com/box-sizing/</a></li>
+<li><a href="http://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/">http://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/</a></li>
+<li><a href="http://caniuse.com/">http://caniuse.com/</a></li>
+<li><a href="http://css3generator.com/">http://css3generator.com/</a></li>
+<li><a href="http://ilovecss.me/">http://ilovecss.me/</a></li>
+</ul></div>
         </div>
     </section>
     
     <section id="python">
         <div class="row">
             <h1 class="general_section">PYTHON</h1>
-            <h1>Where to begin...?</h1>
+            <div class="resource"><h2>Where to begin...?</h2>
 <p>Curious about all this talk about python and you want to try it out. You don't need to have programming knowledge to learn Python.</p>
 <ol>
 <li>Head over to <a href="https://www.python.org/">python.org</a> and click on the yellow button to launch the interactive Python shell.</li>
@@ -142,14 +174,15 @@ make like easier like source control integration, additional syntax highlighting
 <li><a href="#general">Command Line</a> - You will end up turning to command line in your terminal/console and knowing a few basic command lines is really handy knowledge. It's quick and saves time.</li>
 <li><a href="#sourcecontrol">Source Control</a> - This is pretty essential nowadays regardless if you are working on your own project, with small/huge teams.</li>
 <li>pip and virtualenv</li>
-</ul>
+</ul></div>
         </div>
     </section>
     
     <section id="sourcecontrol">
         <div class="row">
             <h1 class="general_section">SOURCE CONTROL</h1>
-            <p>Source control is pretty important nowadays from working on your own personal project to team-based projects to
+            <div class="resource"><h2>What is it? And why do I need it?</h2>
+<p>Source control is pretty important nowadays from working on your own personal project to team-based projects to
 interacting with open-source projects. It's a necessary skill that all who writes code should know. It will solve
 a lot of headaches and at least certain doom (might be exaggerated, but it feels like that at the time) and knowing
 that you can revert changes, it's quite a life-saver.</p>
@@ -172,14 +205,14 @@ that you can revert changes, it's quite a life-saver.</p>
 <ul>
 <li><a href="http://mercurial.selenic.com/wiki/Tutorial">Mercurial's own tutorial</a></li>
 <li><a href="http://mercurial.selenic.com/wiki/QuickReferenceCardsAndCheatSheets">Mercurial's own cheatsheets</a></li>
-</ul>
+</ul></div>
         </div>
     </section>
     
 </div>
 
     </div>
-    <footer>
+    <footer class="navbar-fixed-bottom">
         <section>
             Coding Grace 2013 - 2014 || <a href="http://twitter.com/codinggrace">@codinggrace</a> || <a href="https://www.facebook.com/pages/Coding-Grace/501098363273457">Facebook Page</a>
         </section>

@@ -27,11 +27,25 @@
 			    <!-- Collect the nav links, forms, and other content for toggling -->
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="/">Home</a></li>
-                        <li><a href="http://blog.codinggrace.com">Blog</a></li>
+                        <li class="active dropdown"><a href="/">Home</a></li>
+                        <li  class=" dropdown">
+                            <a href="#" class="dropdown-toggle"  data-toggle="dropdown">News  <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/articles/">Articles</a></li>
+                                <li><a href="/archives/">Archives</a></li>
+                            </ul>
+
+                        </li>
                         <!--<li ><a href="about.html">About</a></li>-->
-                        <li ><a href="/#about">About</a></li>
+                        <li class=" dropdown">
+                            <a href="#" class="dropdown-toggle"  data-toggle="dropdown">About <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/#about">About us</a></li>
+                                <li><a href="/chapters">Chapters</a></li>                                
+                            </ul>
+                        </li>
                         <li ><a href="/#conduct">Code of Conduct</a></li>
+                        <li ><a href="/resources">Resources</a></li>
                     </ul>
 			     </div>
             </div> <!-- container-fluid -->
@@ -79,7 +93,7 @@
                     </ul>
                 </p>
                 <h4>Questions?</h4>
-                <span class="glyphicon glyphicon-envelope"></span> <a href="mailto:codinggrace@gmail.com">codinggrace@gmail.com</a>
+                <span class="glyphicon glyphicon-envelope"></span> <a href="mailto:contact@codinggrace.com">contact@codinggrace.com</a>
             </div>
             <div class="col-sm-5">
                 <!--<p>Subscribe to our monthly news letter</p>-->
@@ -106,7 +120,7 @@
         <h1 class="general_section">UPCOMING EVENTS</h1>
         <div class="row">
         
-        
+
         <div class="col-md-3">
             <div class="panel panel-primary">
                 <div class="panel-heading">
@@ -116,16 +130,45 @@
                 <div class="panel-body">
                     <section>
                         <h6>Monday 14 April, 18:30</h6>
+                        
                         <address>
                             <strong>Adverts.ie Office (4th Floor)</strong><br/>
-                            19 / 22 Dame Street, D2<br/>
-                            <abbr title="Contact Organiser - Vicky">P:</abbr> +353 86 150 2003
+                            19 / 22 Dame Street, <br/>
+                            <abbr title="Contact Organiser - Coding Grace">Who:</abbr> <a href="http://www.eventbrite.ie/o/3737795691">Contact Organiser</a>
                         </address>
+                        
                         <p>
                             Source control is really important no matter how big or small your projects are. Come join us with an introductary workshop into using Git via a ...
                         </p>
                         <div>
-                            <a href="https://www.eventbrite.ie/e/coding-grace-introduction-to-git-tickets-10858388733?ref=ebapi" class="center-block btn btn-success active" role="button">Register</a>
+                            <a href="http://www.eventbrite.ie/e/coding-grace-introduction-to-git-tickets-10858388733" class="center-block btn btn-success active" role="button">Register</a>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="col-md-3">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h5>Coding Grace Game Art Workshop</h5>
+                </div>
+
+                <div class="panel-body">
+                    <section>
+                        <h6>Saturday 24 May, 12:00</h6>
+                        
+                        <address>
+                            <strong>TBA</strong><br/>
+                            <abbr title="Contact Organiser - Coding Grace">Who:</abbr> <a href="http://www.eventbrite.ie/o/6208725969">Contact Organiser</a>
+                        </address>
+                        
+                        <p>
+                            Pete Mc Nally (Havok) will be our instructor for Game Art Workshop. More details to follow. FAQ Q. What do I need to bring? A. You laptop with the ...
+                        </p>
+                        <div>
+                            <a href="http://www.eventbrite.ie/e/coding-grace-game-art-workshop-tickets-11136883719" class="center-block btn btn-success active" role="button">Register</a>
                         </div>
                     </section>
                 </div>
@@ -140,39 +183,44 @@
         <h1 class="general_section">ABOUT US</h1>
         <div class="row">
             <div class="col-md-8">
-                <section>
+                <p>
                     Coding Grace are a group of developers based in Ireland who love to code and do other geeky and not
                     necessarily crafty activities. Some of us code full-time, or just for fun (or both). We have people
                     who are part of other technical user groups such as <a href="http://dublinalt.net/">Dublin ALT.NET</a>,
                     <a href="http://dublingamecraft.com/">GameCraft</a>, <a href="http://python.ie">Python Ireland</a>,
                     <a href="http://www.rubyireland.com/">Ruby Ireland</a> and more…
-                </section>
-                <section>
+                </p>
+                <p>
                     We provide female-friendly workshops and events in an environment for developers and aspiring developers
                     mentored by majority female instructors.
-                </section>
-                <section>
+                </p>
+                <p>
                     Where many events tend to have more males than females, we aim to encourage many females to come along
                     to our workshops and learn to code and more. We also encourage any females who want to mentor technical
                     material to help out, it’s not that scary after all.
-                </section>
-                <section>
+                </p>
+                <p>
                     It doesn’t matter if you are learning or mentoring, gaining confidence to ask questions, helping others,
                     which results in everyone learning from each other gives females in this field the encouragement to
                     further their careers, attend technical conferences, or even give a technical talk at one.
-                </section>
-                <section>
+                </p>
+                <p>
                     We aim to provide a support network for people from all backgrounds and hope our outreach will help
                     bring those who are interested in code development together and learn from one another.
-                </section>
-                <section>
+                </p>
+                <p>
                     We also have <a href="https://coding-grace-guide.readthedocs.org/en/latest/index.html">a guide for
                     mentors and participants</a>. This is work-in-progress.
-                </section>
-                <section>
-                    If you want to contact us regarding sponsorships, workshops, mentoring or just because you are curious,
-                    drop us an email at <a href="mailto:codinggrace@gmail.com">codinggrace@gmail.com</a>.
-                </section>
+                </p>
+                <p>
+                    If you want to contact us regarding 
+                    <ul>
+                        <li>sponsorships</li>
+                        <li>workshops</li>
+                        <li>mentoring</li>
+                    </ul>
+                    or just because you are curious, drop us an email at <a href="mailto:contact@codinggrace.com">contact@codinggrace.com</a>.
+                </p>
             </div>
             <div class="col-md-4">
                 <div class="lead">"I found the format really helpful and engaging. It's great to play around (I love being
@@ -209,19 +257,19 @@
             All communication should be appropriate for a professional audience including people of many different
             backgrounds. Sexual language and imagery is not appropriate for any events venue, including talks.
             Be kind to others. Do not insult or put down other attendees. Behave professionally. Remember that
-            harassment and sexist, racist, or exclusionary jokes are not appropriate for EventGeekie events.
+            harassment and sexist, racist, or exclusionary jokes are not appropriate for Coding Grace events.
             Attendees violating these rules may be asked to leave the event without a refund (if any) at the sole
             discretion of the event organisers.
          </p>
         <p>
             Thank you for helping make this a welcoming, friendly event for all.
         </p>
-        <p>For the longer version, you can read it here: <a href="code_of_conduct/">Coding Grace Code of Conduct full version</a></p>
+        <h3>For the longer version, you can read it here: <a href="code_of_conduct/">Coding Grace Code of Conduct full version</a></h3>
     </section>
 
 
     </div>
-    <footer>
+    <footer class="navbar-fixed-bottom">
         <section>
             Coding Grace 2013 - 2014 || <a href="http://twitter.com/codinggrace">@codinggrace</a> || <a href="https://www.facebook.com/pages/Coding-Grace/501098363273457">Facebook Page</a>
         </section>

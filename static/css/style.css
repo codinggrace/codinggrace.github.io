@@ -1,5 +1,11 @@
+/* Colour scheme: http://adobe.ly/1eeccSD */
+
 /* Compensate for the fixed nav bar at the top */
-body { padding-top: 50px; }
+body { 
+    padding-top: 50px;
+    padding-bottom: 80px;
+    background-color: #DCDEE6;
+}
 
 .general_section {
     height:2em;
@@ -19,11 +25,147 @@ section h1.general_section{
 
 footer {
     margin-top:2em;
-    background:url("../images/bubblestop.png") repeat-x;
-    padding-top:2em;
+    /*background:url("../images/bubblestop.png") repeat-x;*/
+    /*padding-top:1em;*/
+    background-color: #EE7744;
+    border-top: #DCDEE6 dashed 5px;
+    color: white;
 }
 
-footer section {
-    padding:3em 0 3em 3em;
-    background-color: rgb(255, 212, 77);
+footer section {padding:10px;}
+
+footer a:link, #chapters #about a:link, .chapter #about a:link, .article h1 a:link{
+    text-decoration:none;
+    color:white;
 }
+footer a:visited, #chapters #about a:visited .chapter #about a:visited, .article h1  a:visited{
+    text-decoration:none;
+    color:white;
+}
+footer a:hover, #chapters #about a:hover .chapter #about a:hover, .article h1 a:hover{
+    text-decoration:underline;
+    background-color: yellow;
+    color: black;
+}
+footer a:active, #chapters #about a:active .chapter #about a:active, .article h1 a:active{
+    text-decoration:underline;
+    background-color: yellow;
+    color: black;
+}
+
+/* CHAPTERS */
+.chapters #about, .chapter #about{
+    background-color: #368DBA;
+    border-right: #DD5533 ridge 10px;
+    border-left: #DD5533 groove 10px;
+    color: white;
+}
+
+.chapters #about h2, .chapter #about h3, .chapter #about h2, .chapter #about h5, .articles h2{
+    background-color: #EE7744;
+    padding:10px;
+    border: #368DBA 1px dashed;
+}
+
+.chapters #countries{
+    border-left: #368DBA ridge 10px;
+    border-right: #368DBA groove 10px;
+    padding-bottom:10px;
+    background-color: #EE7744;
+}
+
+.chapters #countries h2{
+    background-color: #132537;
+    padding: 10px;
+    color: white;
+    border-top: #EE7744 1px dashed;
+    border-right: #EE7744 1px dashed;
+    border-left: #EE7744 1px dashed;
+}
+
+.chapters #countries p{
+    padding:10px;
+    background-color: #DCDEE6;
+    margin-top:-10px;
+}
+
+.chapters #about a[href^="mailto:"]{
+    color:white;
+}
+
+/* CHAPTER */
+.chapter #articles h3, .articles h2{
+    background-color: #EE7744;
+    padding: 10px;
+    color: white;
+    border: #DCDEE6 1px dashed;
+}
+
+/* ARCHIVE */
+.archive li{
+    font-size: 14px;
+}
+
+
+/* ARTICLE */
+.article h1, .archive h2{
+    background-color: #EE7744;
+    padding:10px;
+    border-top: #DCDEE6 1px dashed;
+    border-right: #DCDEE6 1px dashed;
+    border-left: #DCDEE6 1px dashed;
+    color: white;
+}
+
+.article h1 small{
+    color: #DCDEE6;
+}
+
+.article section{
+    background-color: white;
+    padding: 10px;
+    margin-top: -10px;
+}
+
+.article section h1, .article section h2, .article section h3, .article section h4, .article section h5{
+    background-color: #132537;
+    color: white;
+    padding: 5px;
+    border: white 1px dashed;
+}
+
+.resources h1{
+    margin-bottom:-20px;
+}
+/* RESOURCES */
+.resource{
+   /*padding:10px;*/
+   /*background-color:white;*/
+   /*margin-top:-10px;*/
+}
+
+
+.resource h1{
+    background-color: #EE7744;
+    color:white;
+    padding: 5px;
+    border: #DCDEE6 1px dashed;
+
+    
+}
+
+.resource h2 {
+    background-color: #132537;
+    color:white;
+    padding:0.5em;
+    /*margin-top:-10px;*/
+
+}
+.resource h3{
+    color: #DD5533;
+}
+
+#tweets{
+    margin-top:20px;
+}
+

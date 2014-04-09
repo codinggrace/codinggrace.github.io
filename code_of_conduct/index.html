@@ -28,10 +28,24 @@
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
                         <li ><a href="/">Home</a></li>
-                        <li><a href="http://blog.codinggrace.com">Blog</a></li>
+                        <li  class=" dropdown">
+                            <a href="#" class="dropdown-toggle"  data-toggle="dropdown">News  <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/articles/">Articles</a></li>
+                                <li><a href="/archives/">Archives</a></li>
+                            </ul>
+
+                        </li>
                         <!--<li ><a href="about.html">About</a></li>-->
-                        <li ><a href="/#about">About</a></li>
+                        <li class=" dropdown">
+                            <a href="#" class="dropdown-toggle"  data-toggle="dropdown">About <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/#about">About us</a></li>
+                                <li><a href="/chapters">Chapters</a></li>                                
+                            </ul>
+                        </li>
                         <li class="active"><a href="/#conduct">Code of Conduct</a></li>
+                        <li ><a href="/resources">Resources</a></li>
                     </ul>
 			     </div>
             </div> <!-- container-fluid -->
@@ -46,7 +60,7 @@
             <img src="/static/images/codinggrace-logo.png" alt="Coding Grace Logo">
         </div>
         <div class="col-md-6">
-            <h1></h1>
+            <h1>CODE OF CONDUCT</h1>
         </div>
         <div class="col-md-3">
             <div class="well">
@@ -97,7 +111,7 @@
                     If the matter is especially urgent, please call/contact any of these individuals:
                     <ul>
                         <li>
-                            <span class="glyphicon glyphicon-user"></span> Vicky Twomey-Lee || <span class="glyphicon glyphicon-envelope"></span> <a href="mailto:codinggrace@gmail.com">codinggrace@gmail.com</a> || <span class="glyphicon glyphicon-earphone"></span> +353 86 150 2003
+                            <span class="glyphicon glyphicon-user"></span> Vicky Twomey-Lee || <span class="glyphicon glyphicon-envelope"></span> <a href="mailto:vicky@codinggrace.com">vicky@codinggrace.com</a> || <span class="glyphicon glyphicon-earphone"></span> +353 86 150 2003
                         </li>
                     </ul>
                 </p>
@@ -314,7 +328,7 @@
                 <h2>Staff Contact</h2>
                 <ul>
                     <li>
-                        <span class="glyphicon glyphicon-user"></span> Vicky Twomey-Lee || <span class="glyphicon glyphicon-envelope"></span> <a href="mailto:codinggrace@gmail.com">codinggrace@gmail.com</a> || <span class="glyphicon glyphicon-earphone"></span> +353 86 150 2003
+                        <span class="glyphicon glyphicon-user"></span> Vicky Twomey-Lee || <span class="glyphicon glyphicon-envelope"></span> <a href="mailto:vicky@codinggrace.com">vicky@codinggrace.com</a> || <span class="glyphicon glyphicon-earphone"></span> +353 86 150 2003
                     </li>
                 </ul>
             </div>
@@ -338,7 +352,7 @@
 </div>
 
     </div>
-    <footer>
+    <footer class="navbar-fixed-bottom">
         <section>
             Coding Grace 2013 - 2014 || <a href="http://twitter.com/codinggrace">@codinggrace</a> || <a href="https://www.facebook.com/pages/Coding-Grace/501098363273457">Facebook Page</a>
         </section>
