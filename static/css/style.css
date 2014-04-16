@@ -108,7 +108,7 @@ footer a:active, #chapters #about a:active .chapter #about a:active, .article h1
 
 
 /* ARTICLE */
-.article h1, .archive h2{
+.archive h2{
     background-color: #EE7744;
     padding:10px;
     border-top: #DCDEE6 1px dashed;
@@ -127,13 +127,16 @@ footer a:active, #chapters #about a:active .chapter #about a:active, .article h1
     margin-top: -10px;
 }
 
-.article section h1, .article section h2, .article section h3, .article section h4, .article section h5{
+.article section h1, .article h1, .article section h3, .article section h4, .article section h5{
     background-color: #132537;
     color: white;
     padding: 5px;
-    border: white 1px dashed;
+    /*border: white 1px dashed;*/
 }
 
+.article section h2{
+    text-decoration: underline;
+}
 .resources h1{
     margin-bottom:-20px;
 }
